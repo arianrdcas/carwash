@@ -1,0 +1,466 @@
+
+
+* {
+  background: black;
+  font-family: "Rock Salt", cursive;
+  font-size: 25px;
+}
+
+
+.head {
+  color: goldenrod;
+  text-align: start;
+  margin-top: 30px;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+  animation-direction: normal;
+}
+
+.head hr {
+  color: goldenrod;
+  width: 200px;
+  margin-top: -20px;
+  margin-left: -7px;
+}
+
+.contenedor {
+  position: relative;
+  /* border: 2px solid green; */
+}
+
+img {
+  position: absolute;
+  width: 70%;
+  height: 500px;
+  left: -10px;
+  top: 50px;
+  /* border: 2px solid green; */
+}
+
+p {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 100px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+span {
+  color: goldenrod;
+  font-size: 13px;
+  font-weight: bolder;
+  width: 130px;
+  position: absolute;
+  top: 160px;
+  left: 255px;
+  /* border: 2px solid blue; */
+}
+
+button {
+  color: goldenrod;
+  float: right;
+  top: 250px;
+  border: none;
+  /* font-size: 30px; */
+  left: 340px;
+  position: absolute;
+  animation-name: aparecer;
+}
+
+.fa-brands {
+  font-size: 30px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-direction: initial;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#prueba {
+  color: goldenrod;
+  float: right;
+  top: 350px;
+  border: none;
+  /* font-size: 30px; */
+  left: 350px;
+  position: absolute;
+  animation-name: aparecer;
+}
+
+#instagram {
+  color: goldenrod;
+  float: right;
+  top: 350px;
+  left: 340px;
+  /*  font-size: 30px; */
+  position: absolute;
+  /* border: 2px solid blue; */
+}
+
+h2 {
+  position: absolute;
+  color: white;
+  top: 600px;
+  left: 50px;
+  animation-duration: 3s;
+  animation-name: desplazar;
+  animation-direction: normal;
+}
+
+@keyframes desplazar {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: -1%;
+    width: 100%;
+  }
+}
+
+ul {
+  color: goldenrod;
+  position: absolute;
+  top: 650px;
+  list-style-type: none;
+  animation-duration: 3s;
+  animation-name: desplazar;
+  animation-direction: normal;
+}
+li {
+  margin-top: 5px;
+  font-size: 10px;
+  
+}
+
+
+
+/* Media Query */
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .head {
+    color: goldenrod;
+    text-align: start;
+    margin-top: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    animation-direction: normal;
+  }
+
+  .head hr {
+    color: goldenrod;
+    width: 200px;
+    margin-top: -20px;
+    margin-left: -7px;
+  }
+
+  .contenedor {
+    position: relative;
+    /* border: 2px solid green; */
+  }
+
+  img {
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    left: -10px;
+    top: 40px;
+    /* border: 2px solid green; */
+  }
+
+  p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 100px;
+    top: -5px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  span {
+    color: goldenrod;
+    font-size: 13px;
+    font-weight: bolder;
+    width: 130px;
+    position: absolute;
+    top: 160px;
+    left: 255px;
+    /* border: 2px solid blue; */
+  }
+
+  button {
+    color: goldenrod;
+    float: right;
+    top: 250px;
+    border: none;
+    /* font-size: 30px; */
+    left: 280px;
+    position: absolute;
+    animation-name: aparecer;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-direction: initial;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0.1;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  #prueba {
+    color: goldenrod;
+    float: right;
+    top: 350px;
+    border: none;
+    /* font-size: 30px; */
+    left: 350px;
+    position: absolute;
+    animation-name: aparecer;
+  }
+
+  #instagram {
+    color: goldenrod;
+    float: right;
+    top: 350px;
+    left: 284px;
+    /*  font-size: 30px; */
+    position: absolute;
+    /* border: 2px solid blue; */
+  }
+
+  h2 {
+    position: absolute;
+    color: white;
+    top: 590px;
+    left: 50px;
+    animation-duration: 3s;
+    animation-name: desplazar;
+    animation-direction: normal;
+  }
+
+  @keyframes desplazar {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: -1%;
+      width: 100%;
+    }
+  }
+
+  ul {
+    color: goldenrod;
+    position: absolute;
+    top: 650px;
+    list-style-type: none;
+    animation-duration: 3s;
+    animation-name: desplazar;
+    animation-direction: normal;
+  }
+  li {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}
+
+
+
+ /* Otra Media Query */
+@media screen and (min-width: 401px) and (max-width: 460px) {
+  .head {
+    color: goldenrod;
+    text-align: start;
+    margin-top: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    animation-direction: normal;
+  }
+
+  .head hr {
+    color: goldenrod;
+    width: 200px;
+    margin-top: -20px;
+    margin-left: -7px;
+  }
+
+  .contenedor {
+    position: relative;
+    /* border: 2px solid green; */
+  }
+
+  img {
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    left: -10px;
+    top: 50px;
+    /* border: 2px solid green; */
+  }
+
+  p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 100px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  span {
+    color: goldenrod;
+    font-size: 13px;
+    font-weight: bolder;
+    width: 130px;
+    position: absolute;
+    top: 160px;
+    left: 255px;
+    /* border: 2px solid blue; */
+  }
+
+  button {
+    color: goldenrod;
+    float: right;
+    top: 250px;
+    border: none;
+    /* font-size: 30px; */
+    left: 340px;
+    position: absolute;
+    animation-name: aparecer;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-direction: initial;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0.1;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  #prueba {
+    color: goldenrod;
+    float: right;
+    top: 350px;
+    border: none;
+    /* font-size: 30px; */
+    left: 350px;
+    position: absolute;
+    animation-name: aparecer;
+  }
+
+  #instagram {
+    color: goldenrod;
+    float: right;
+    top: 350px;
+    left: 340px;
+    /*  font-size: 30px; */
+    position: absolute;
+    /* border: 2px solid blue; */
+  }
+
+  h2 {
+    position: absolute;
+    color: white;
+    top: 600px;
+    left: 50px;
+    animation-duration: 3s;
+    animation-name: desplazar;
+    animation-direction: normal;
+  }
+
+  @keyframes desplazar {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: -1%;
+      width: 100%;
+    }
+  }
+
+  ul {
+    color: goldenrod;
+    position: absolute;
+    top: 650px;
+    list-style-type: none;
+    animation-duration: 3s;
+    animation-name: desplazar;
+    animation-direction: normal;
+  }
+  li {
+    margin-top: 5px;
+    font-size: 10px;
+    
+  }
+}

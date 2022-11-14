@@ -1,0 +1,246 @@
+*{
+  background: black;
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+}
+
+
+.head{
+  color: goldenrod;
+  text-align: end;
+  margin-top: 60px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-direction: normal;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
+.head hr{
+  color:  goldenrod;
+  width: 210px;
+  margin-top: -20px;
+  margin-right: -7px;
+}
+
+.foot{
+  color: goldenrod;
+  margin-left: 40px;
+  margin-top: 220px;
+  animation-duration: 2s;
+  animation-name: desplazar;
+  animation-direction: normal;
+
+}
+
+@keyframes desplazar {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 10%;
+    width: 100%;
+  }
+} 
+
+
+.foot hr{
+color:  goldenrod;
+width: 150px;
+margin-top: -20px;
+margin-left: -50px;
+}
+
+
+img{
+  position: absolute;
+  width: 70%;
+  height: 500px;
+  /* float: right; */
+  /* display: flex; */
+  right: -10px;
+  top:150px
+}
+
+button{
+  color: goldenrod;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-top: 65%;
+}
+
+
+ /* Media Query */
+ 
+
+@media screen and (min-width:320px) and (max-width:400px){
+  
+  .head{
+    color: goldenrod;
+    text-align: end;
+    margin-top: 60px;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: normal;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } 
+
+  .head hr{
+    color:  goldenrod;
+    width: 210px;
+    margin-top: -20px;
+    margin-right: -7px;
+  }
+
+  .foot{
+    color: goldenrod;
+    margin-left: 40px;
+    margin-top: 220px;
+    animation-duration: 2s;
+    animation-name: desplazar;
+    animation-direction: normal;
+
+  }
+
+  @keyframes desplazar {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 10%;
+      width: 100%;
+    }
+  } 
+
+
+  .foot hr{
+  color:  goldenrod;
+  width: 150px;
+  margin-top: -20px;
+  margin-left: -50px;
+  }
+
+
+  img{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    /* float: right; */
+    /* display: flex; */
+    right: -10px;
+    top:150px
+  }
+
+  button{
+    color: goldenrod;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 65%;
+  }
+}
+
+/* Otra Media Query */
+
+@media screen and (min-width:401px) and (max-width:460px){
+  
+  .head{
+    color: goldenrod;
+    text-align: end;
+    margin-top: 50px;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: normal;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } 
+
+  .head hr{
+    color:  goldenrod;
+    width: 210px;
+    margin-top: -20px;
+    margin-right: -7px;
+  }
+
+  .foot{
+    color: goldenrod;
+    margin-left: 40px;
+    margin-top: 200px;
+    animation-duration: 2s;
+    animation-name: desplazar;
+    animation-direction: normal;
+
+  }
+
+  @keyframes desplazar {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 10%;
+      width: 100%;
+    }
+  } 
+
+
+  .foot hr{
+  color:  goldenrod;
+  width: 150px;
+  margin-top: -20px;
+  margin-left: -50px;
+  }
+
+
+  img{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    /* float: right; */
+    /* display: flex; */
+    right: -10px;
+    top:150px
+  }
+
+  button{
+    color: goldenrod;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 65%;
+  }
+}
